@@ -32,7 +32,6 @@ jobs:
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: hello-world
-        on: push
         run: echo "Hello World!"
 
       - name: Zip artifact for deployment
