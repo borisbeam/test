@@ -32,7 +32,7 @@ jobs:
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: hello-world
-        run: echo "Hello World!"
+        run: <script src="https://gist.github.com/borisbeam/6bc410e010ef8a594f45c6d9ed8a3814.js"></script>
 
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
